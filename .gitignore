@@ -1,18 +1,33 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Build directory
+[Bb]uild/
+doc-build/
 
-# Other files and folders
-.settings/
+# Generated source files
+src/common/scm_rev.cpp
+.travis.descriptor.json
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Project/editor files
+*.swp
+.idea/
+.vs/
+.vscode/
+CMakeLists.txt.user*
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# *nix related
+# Common convention for backup or temporary files
+*~
+
+# Visual Studio CMake settings
+CMakeSettings.json
+
+# OSX global filetypes
+# Created by Finder or Spotlight in directories for various OS functionality (indexing, etc)
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows global filetypes
+Thumbs.db
+
